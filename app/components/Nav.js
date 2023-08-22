@@ -51,7 +51,7 @@ const Nav = () => {
                   <div className="text-[16px] leading-none font-semibold capitalize ">
                     {item.name}
                   </div>
-                  //triangle
+
                   <div className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2"></div>
                 </div>
               </div>
