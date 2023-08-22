@@ -43,7 +43,7 @@ const Nav = () => {
             <Link
               href={item.path}
               key={index}
-              className={`${item.path === pathname && "text-accent"}
+              className={`
               hover:text-accent transition-all duration-600 items-center flex relative group `}
             >
               <div className="absolute pr-14 right-0 hidden xl:group-hover:flex ">
