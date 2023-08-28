@@ -7,7 +7,7 @@ import Transtion from "./Transtion";
 
 function MotionDiv({ children, ...props }) {
   const pathname = usePathname();
-  console.log(props.variants);
+
   return (
     <motion.div {...props} key={pathname}>
       <Transtion />
