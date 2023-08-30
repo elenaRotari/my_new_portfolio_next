@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 import ParticlesContainer from "./components/ParticlesContainer";
 import Avatar from "./components/Avatar";
